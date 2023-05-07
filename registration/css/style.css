@@ -1,0 +1,32 @@
+.text_center {
+  text-align: center;
+  border: 5px solid;
+  padding: 10px;
+}
+h1 {
+  color: navy;
+  background-color: darkorange;
+  position: sticky;
+}
+.form_style {
+  position: relative;
+  left: 500px;
+}
+.button_style {
+  font-size: 20px;
+  background-color: darkorange;
+  border: none;
+  padding: 7px;
+  color: navy;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.button_style:hover {
+  background-color: navy;
+  color: darkorange;
+  cursor: pointer;
+}
+.table_style {
+  border: 2px dashed navy;
+  padding: 10px;
+}
