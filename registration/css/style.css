@@ -9,8 +9,8 @@ h1 {
   position: sticky;
 }
 .form_style {
-  position: relative;
-  left: 500px;
+  /* position: relative;
+  left: 500px; */
 }
 .button_style {
   font-size: 20px;
@@ -29,32 +29,4 @@ h1 {
 .table_style {
   border: 2px dashed navy;
   padding: 10px;
-}
-
-@media only screen and (max-width: 300px) {
-  .form_style {
-    position: relative;
-    left: 0;
-  }
-}
-
-@media only screen and (max-width: 400px) {
-  .form_style {
-    position: relative;
-    left: 30px;
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  .form_style {
-    position: relative;
-    left: 100px;
-  }
-}
-
-@media only screen and (max-width: 700px) {
-  .form_style {
-    position: relative;
-    left: 200px;
-  }
 }
