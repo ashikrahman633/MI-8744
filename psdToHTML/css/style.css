@@ -1,0 +1,180 @@
+/* Global Css  */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+/* Layout  */
+.container {
+  width: 90%;
+  margin: auto;
+}
+.row {
+  width: 100%;
+  float: left;
+}
+[class*="col-"] {
+  float: left;
+}
+.col-1 {
+  width: 8.33%;
+}
+.col-2 {
+  width: 16.66%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.33%;
+}
+.col-5 {
+  width: 41.66%;
+}
+.col-6 {
+  width: 50%;
+}
+.col-7 {
+  width: 58.33%;
+}
+.col-8 {
+  width: 66.66%;
+}
+.col-9 {
+  width: 75%;
+}
+.col-10 {
+  width: 83.33%;
+}
+.col-11 {
+  width: 91.66%;
+}
+.col-12 {
+  width: 100%;
+}
+/* Header part */
+header {
+  background-color: #87509c;
+}
+.logo-part {
+  float: left;
+  width: 50%;
+}
+.menu-part {
+  width: 50%;
+  float: left;
+}
+#service {
+  background-color: #17c2a4;
+  color: #ffff;
+}
+.box {
+  width: 25%;
+  float: left;
+}
+#demo {
+  height: 100px;
+  background-color: aquamarine;
+}
+#demo div {
+  height: 100px;
+}
+.div1 {
+  background-color: black;
+}
+
+.div2 {
+  background-color: rgb(223, 28, 28);
+}
+.div3 {
+  background-color: rgb(15, 197, 127);
+}
+.div4 {
+  background-color: rgb(17, 75, 182);
+}
+#team {
+  background-color: #e7f1f8;
+  color: #3c4761;
+}
+
+#skill {
+  background-color: #e7f1f8;
+  color: #3c4761;
+}
+#portfolio {
+  background-color: #ffdd99;
+  color: #393939;
+}
+#about_us {
+  background-color: #d74680;
+  color: #ffffff;
+}
+
+.load_btn{
+  width: 20%;
+  margin: auto;
+}
+
+.position_color{
+  color: #ee9f8e;
+}
+.circle_img{
+  width: 50%;
+}
+
+.writing-part{
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+#get_in_touch{
+  background-color: #3c5499;
+  color: #ffffff;
+}
+.form_div{
+  width: 80%;
+  margin: auto;
+}
+
+.form_control{
+  width: 90%;
+    padding: 10px;
+    background-color: #273a71;
+    border-radius: 5px;
+}
+.textArea{
+  margin-top: 20px;
+  width: 100%;
+  border-radius: 5px;
+  background-color: #273a71;
+  padding: 10px;
+}
+
+.btn_primary{
+  background-color: #30bae7;
+  padding: 15px;
+  color: white;
+  border-radius: 5px;
+  width: 100%;
+}
+.btn_div{
+width: 20%;
+margin: auto;
+}
+
+.footer{
+  background-color: #344b8e;
+  color: white;
+  padding: 30px;
+}
+.footer_content_div{
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  font-weight: bold;
+}
