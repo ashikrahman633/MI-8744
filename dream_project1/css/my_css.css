@@ -1,0 +1,50 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,700&display=swap');
+*{
+    font-family: 'Titillium Web', sans-serif;
+}
+header{
+    background-color: #87509c;
+}
+#service{
+  background-color: #17c2a4;
+  color: #ffff;
+  text-align: center;
+}
+.underline {
+  border-top: 5px solid #00000038;
+  width: 5%;
+  margin: 10px auto;
+}
+#team{
+  background-color: #e7f1f8;
+  color: #3c4761;
+}
+.small-text{
+  color: #8cd1ee;
+}
+
+#team .box{
+  margin-bottom: 100px;
+}
+#skill{
+  background-color: #ffffff;
+  color: #3c4761;
+}
+#skill .box{
+  margin-bottom: 100px;
+}
+#portfolio{
+  background-color: #ffdd99;
+  color: #393939;
+}
+
+#portfolio .box{
+  margin-bottom: 50px;
+  padding: 40px;
+}
+
+#about-us{
+  background-color: #d74680;
+  color: #fffdfd;
+}
